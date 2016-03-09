@@ -1,0 +1,149 @@
+body{
+    font-family: 'Istok Web', sans-serif;
+    background-color: #DADADA;
+    color: #444444;
+}
+.container-fluid{
+    padding:20px;
+}
+.profile-pic{
+    border-radius: 60px;
+    width:120px; border: 4px solid #7A1FA2;
+}
+.friend-pic{
+    border-radius: 40px;
+    width:80px; border: 3px solid #7DB837;
+}
+.navigation a{
+    color:#FFFFFF;
+}
+.logo{
+    float: left;
+}
+.navigation{
+    float: right;
+    color: #FFFFFF;
+}
+.navigation i{
+    padding:15px 10px;
+    font-size: 20px;
+}
+.profile-name{
+    margin:25px 0 5px;
+}
+.profile-left-icon{
+    height: 100%;
+    min-height: 100%;
+    text-align: right;
+    font-size:40px;
+    color: #7DB837;
+    padding:30px 0;
+}
+.profile-right-icon{
+    height: 100%;
+    min-height: 100%;
+    text-align: left;
+    font-size:40px;
+    color: #7DB837;
+    padding:30px 0;
+}
+.profile-left-icon, .profile-right-icon i{
+    cursor: pointer;
+}
+.small-heading{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom:5px;
+}
+.sub-heading{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+hr{
+    margin: 25px;
+    color: #f0f0f0;
+    border:1px solid #f0f0f0;
+}
+.content-box{
+    max-width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 3px #CCCCCC;
+}
+.content-box-text{
+    max-width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    box-shadow: 0 0 3px #CCCCCC;
+    position: relative;
+}
+.header-box{
+    max-width: 700px;
+    padding: 0 0 0 15px;
+    background-color: #9D29B2;
+    color:#FFFFFF;
+    margin-top: -15px;
+}
+.banner-img{
+    width:100%;
+}
+.margin-top-0{
+    margin-top: -15px;
+}
+.view-more-box{
+    background-color: #7db837;
+    color: #ffffff;
+    float: right;
+    width: 40px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: normal;
+    line-height: 23px;
+    padding: 7px 9px;
+    position: absolute;
+    right:0;
+    top:0;
+    cursor: pointer;
+    z-index: 99;
+}
+#action_block{
+    margin-top: 20px;
+}
+.valign-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.friend-div{
+    height:63px;
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+}
+.friend-name{
+    font-size: 22px;
+    float: right;
+    text-align: right;
+}
+.friend-icons{
+   clear: both;
+    text-align: right;
+}
+.friend-icons i{
+    font-size: 18px;
+    color: #9D29B2;
+    cursor: pointer;
+    margin-left: 10px;
+}
+h3{
+    margin-bottom: 0px;
+}
+.width-inherit{
+    width:inherit;
+}
+.davide-row{
+    margin:10px 0;
+    border: 1px solid #f0f0f0;
+}
